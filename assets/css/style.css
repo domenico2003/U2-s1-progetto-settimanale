@@ -84,6 +84,7 @@ nav{
     height: 70px;
     position: sticky; top: 0;
     z-index: 999;
+    width:100% ;
 }
 nav ul{
     display: flex;
@@ -352,6 +353,17 @@ aside h4{
 
 .separatore{
     width: 100%;
-    
     border-bottom:1px solid rgba(171, 171, 171, 0.29) ;
+}
+
+.info{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.info a{
+    margin-right: 26px;
+    margin-bottom: 8px;
+    color:#757575 
 }
