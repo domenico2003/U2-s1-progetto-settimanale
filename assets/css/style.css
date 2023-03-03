@@ -95,7 +95,7 @@ nav ul{
 
 .contenuto-navbar{
     display: flex;
-    width: 63%;
+    width: 83%;
     align-items: center;
 }
 #separa-nav{
@@ -118,7 +118,7 @@ header img{
 }
 
 .text-content{
-    width: 63%;
+    width: 83%;
     padding-block: 90px;
     padding-bottom: 80px;
 }
@@ -149,7 +149,7 @@ article{
 .contenuto-article{
     display: flex;
     flex-direction: column;
-    width: 63%;
+    width: 83%;
     padding-top: 40px;
     padding-bottom: 16px;
 }
@@ -234,7 +234,7 @@ article{
 
 .container{
     display: flex;
-    width: 63%;
+    width: 83%;
     padding-top: 56px;
 }
 
@@ -291,6 +291,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .giorno{
