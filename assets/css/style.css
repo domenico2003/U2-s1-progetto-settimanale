@@ -359,11 +359,9 @@ aside h4{
     display: flex;
     margin-top: 20px;
     flex-wrap: wrap;
+    gap: 25px;
 }
 
-.info{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
+.info a{
     color:#757575 ;
 }
