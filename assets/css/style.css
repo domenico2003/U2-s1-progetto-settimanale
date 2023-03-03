@@ -84,7 +84,6 @@ nav{
     height: 70px;
     position: sticky; top: 0;
     z-index: 999;
-    width:100% ;
 }
 nav ul{
     display: flex;
@@ -362,8 +361,9 @@ aside h4{
     flex-wrap: wrap;
 }
 
-.info a{
-    margin-right: 26px;
-    margin-bottom: 8px;
-    color:#757575 
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    color:#757575 ;
 }
