@@ -1,0 +1,195 @@
+/* font utilizzati
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Spectral', serif;
+ 
+*/
+
+/* alcuni font-size presi dal sito https://medium.com/ */
+
+/* stili generali */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #191919;
+    
+}
+
+
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 90px;
+    /* titolo pagina */
+}
+h2{
+    font-size: 22px;
+
+    /* sottotitolo */
+}
+h3{
+    font-size: 22px;
+    /* titoli articoli */
+}
+h4{
+    font-size: 16px;
+    /* titoli articolo in trending on medium  */
+}
+h5{
+    font-size: 13px;
+    /* nomi di chi ha publicato l'articolo*/
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    /* per descrizione articoli */
+}
+
+span{
+    /* per informazioni articoli */
+    font-size: 13;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+}
+
+a,a:visited{
+    text-decoration: none;
+    color: #191919;
+    font-size: 14px;
+}
+/* nav e header */
+
+nav ul button{
+    color: white;
+    background-color: #191919;
+    border-radius: 50px;
+    padding: 8px 14px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ffc017 ;
+    border-bottom:1px solid #191919 ;
+    box-sizing: border-box;
+    height: 70px;
+    position: sticky; top: 0;
+    z-index: 999;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.contenuto-navbar{
+    display: flex;
+    width: 63%;
+    align-items: center;
+}
+#separa-nav{
+    flex: 1 0 auto;
+    display: block;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc017;
+    border-bottom: 1px solid #191919;
+}
+
+header img{
+    position: absolute;
+    right: 0;top: 70px;
+    height: 411.45px;
+}
+
+.text-content{
+    width: 63%;
+    padding-block: 90px;
+    padding-bottom: 80px;
+}
+
+.text-content h2{
+    padding: 25px 0; 
+}
+
+#sottotitolo{
+    width: 40%;
+}
+
+#sottotitolo button{
+    background-color: #191919;
+    color: white;
+    padding:6px 40px;
+    border-radius: 50px;
+    font-size: 19px;
+    margin-top: 20px;
+}
+/* article */
+article{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(171, 171, 171, 0.29);
+}
+
+.contenuto-article{
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+.trending{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+/* cards */
+
+.utente{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.contenuto-card h4{
+    margin-bottom: 8px;
+}
+.contenuto-card{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.utente img{
+    border-radius: 100%;
+    
+    width: 10%;
+}
+
+.numerazione{
+    font-size: 30px;
+    color: #e6e6e6;
+    margin-right: 8px;
+}
+
+.card{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+/* main */
