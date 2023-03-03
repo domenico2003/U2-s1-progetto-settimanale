@@ -370,8 +370,11 @@ aside h4{
 
 .slideUp{
     background-color: white;
+    transition-duration: 3s;
 }
 
 .button-green{
     background-color: #1a8917;
+    border: 1px solid #1a8917;
+    transition-duration: 3s;
 }
