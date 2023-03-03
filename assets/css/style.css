@@ -309,6 +309,7 @@ main{
 .testo p{
     color: #757575;
     line-height: 20px;
+    max-width: 450px;
 }
 
 .giorno span{
@@ -365,4 +366,12 @@ aside h4{
 
 .info a{
     color:#757575 ;
+}
+
+.slideUp{
+    background-color: white;
+}
+
+.button-green{
+    background-color: #1a8917;
 }
