@@ -18,8 +18,16 @@ function myFunction() {
         document.querySelector("main").classList.remove("padding-destro");
     }
 }
-// side
 
 
 
 // scipt m
+   
+    let m = document.querySelectorAll("svg path")
+
+    setInterval(() => {
+        let random = Math.floor(Math.random() * m.length)
+        let mSelected = m[random]
+        mSelected.style.opacity && mSelected.style.opacity === "0" ? mSelected.style.opacity = 1 : mSelected.style.opacity = 0
+    }, 40);
+    // }

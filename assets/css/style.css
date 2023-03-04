@@ -111,10 +111,12 @@ header{
     border-bottom: 1px solid #191919;
 }
 
-header img{
+header svg{
     position: absolute;
     right: 0;top: 70px;
-    height: 411.45px;
+    max-height: 411.45px;
+    max-width: 520.98px;
+
 }
 
 .text-content{
