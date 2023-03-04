@@ -330,6 +330,7 @@ aside{
     display: flex;
     flex-direction: column;
     margin-left: 80px;
+
 }
 
 aside h4{
@@ -337,6 +338,7 @@ aside h4{
     font-weight: bold;
     font-size: 15px;
     letter-spacing: 0,5px;
+    max-width: 90%;
 }
 .scelte{
     display: flex;
@@ -370,11 +372,23 @@ aside h4{
 
 .slideUp{
     background-color: white;
-    transition-duration: 3s;
+    transition-duration: 2s;
 }
 
+.side-fissata{
+   position: fixed;
+   top: 75px;
+   right: 0;
+   box-sizing: border-box;
+   padding-inline: 50px;
+   margin-right: 35px;
+}
 .button-green{
     background-color: #1a8917;
     border: 1px solid #1a8917;
-    transition-duration: 3s;
+    transition-duration: 2s;
+}
+.padding-destro{
+    padding-right: 48px;
+    box-sizing: border-box;
 }
